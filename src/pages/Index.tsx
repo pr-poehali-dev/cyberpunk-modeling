@@ -1,4 +1,3 @@
-
 import React from "react";
 import NeonHeading from "@/components/NeonHeading";
 import NeonCard from "@/components/NeonCard";
@@ -24,7 +23,7 @@ const Index = () => {
           ТФП Съёмки в СПб
         </NeonHeading>
         <p className="text-neon-blue text-lg mb-6 font-['VT323',monospace] leading-relaxed max-w-3xl mx-auto">
-          {"_САНКТ>ПЕТЕРБУРГ // МОДЕЛЬНОЕ_АГЕНТСТВО_КИБЕРПАНК_"}
+          {"_САНКТ>ПЕТЕРБУРГ // МОДЕЛЬНОЕ_АГЕНТСТВО_"}
         </p>
       </header>
 
@@ -108,7 +107,7 @@ const Index = () => {
 
       <footer className="max-w-5xl mx-auto text-center mt-16 text-sm text-muted-foreground">
         <p className="font-['VT323',monospace] text-base">
-          © {new Date().getFullYear()} • ТФП СЪЁМКИ СПБ • <span className="text-neon-blue">КИБЕРПАНК ЭДИШН</span>
+          &copy; {new Date().getFullYear()} &bull; ТФП СЪЁМКИ СПБ &bull; <span className="text-neon-blue">НЕОНОВЫЙ СТИЛЬ</span>
         </p>
       </footer>
     </div>
